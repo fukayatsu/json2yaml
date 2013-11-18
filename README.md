@@ -1,25 +1,27 @@
-# Json2yaml
+# json2yaml
+[![Build Status](https://travis-ci.org/fukayatsu/json2yaml.png)](https://travis-ci.org/fukayatsu/json2yaml)
+[![Coverage Status](https://coveralls.io/repos/fukayatsu/json2yaml/badge.png)](https://coveralls.io/r/fukayatsu/json2yaml)
+[![Code Climate](https://codeclimate.com/github/fukayatsu/json2yaml.png)](https://codeclimate.com/github/fukayatsu/json2yaml)
 
-Json <==> Yaml in CLI
+Convert between JSON and YAML in CLI
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'json2yaml'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install json2yaml
 
 ## Usage
 
+Now, you can use `json2yaml` and `yaml2json`
+
 ```
 $ echo '{ "a" : 123 }' | json2yaml
+#=>
+    ---
+    a: 123
+
+$ echo 'a: 123' | yaml2json
+#=>
+    {"a":123}
 
 $ cat foo.json | json2yaml > foo.yml
 
