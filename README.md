@@ -1,9 +1,9 @@
-# Json2yaml
+# json2yaml
 [![Build Status](https://travis-ci.org/fukayatsu/json2yaml.png)](https://travis-ci.org/fukayatsu/json2yaml)
 [![Coverage Status](https://coveralls.io/repos/fukayatsu/json2yaml/badge.png)](https://coveralls.io/r/fukayatsu/json2yaml)
 [![Code Climate](https://codeclimate.com/github/fukayatsu/json2yaml.png)](https://codeclimate.com/github/fukayatsu/json2yaml)
 
-Convert between Json and Yaml in CLI
+Convert between JSON and YAML in CLI
 
 ## Installation
 
