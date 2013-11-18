@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Json2yaml::VERSION
   spec.authors       = ["fukayatsu"]
   spec.email         = ["fukayatsu@gmail.com"]
-  spec.description   = %q{Json <==> Yaml in CLI}
-  spec.summary       = %q{Json <==> Yaml in CLI}
+  spec.description   = %q{Convert between Json and Yaml in CLI}
+  spec.summary       = %q{Convert between Json and Yaml in CLI}
   spec.homepage      = "https:github.com/fukayatsu/json2yaml"
   spec.license       = "MIT"
 
