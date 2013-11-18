@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["fukayatsu@gmail.com"]
   spec.description   = %q{Convert between JSON and YAML in CLI}
   spec.summary       = %q{Convert between JSON and YAML in CLI}
-  spec.homepage      = "https:github.com/fukayatsu/json2yaml"
+  spec.homepage      = "https://github.com/fukayatsu/json2yaml"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
