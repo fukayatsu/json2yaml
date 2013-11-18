@@ -1,6 +1,6 @@
 # Json2yaml
 
-TODO: Write a gem description
+Json <==> Yaml in CLI
 
 ## Installation
 
@@ -18,7 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+$ echo '{ "a" : 123 }' | json2yaml
+
+$ cat foo.json | json2yaml > foo.yml
+
+$ cat bar.yml | yaml2json > bar.json
+
+```
 
 ## Contributing
 
