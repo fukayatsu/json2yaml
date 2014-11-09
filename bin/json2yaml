@@ -3,4 +3,6 @@
 
 require 'json2yaml'
 
-print Json2yaml.to_yaml(STDIN.read)
+Json2yaml.to_yaml(STDIN).each do |yaml|
+  print yaml
+end
