@@ -3,6 +3,6 @@
 
 require 'json2yaml'
 
-Json2yaml.to_json(STDIN).each do |json|
+Json2yaml.to_json(STDIN, ARGV).each do |json|
   print json
 end
