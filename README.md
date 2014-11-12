@@ -13,6 +13,8 @@ Convert between JSON and YAML in CLI
 
 Now, you can use `json2yaml` and `yaml2json`
 
+### Read from STDIN
+
 ```
 $ echo '{ "a" : 123 }' | json2yaml
 #=>
@@ -27,6 +29,14 @@ $ cat foo.json | json2yaml > foo.yml
 
 $ cat bar.yml | yaml2json > bar.json
 
+```
+
+### Read from files
+
+```
+$ json2yaml log1.json log2.json > log.yaml
+
+$ yaml2json log1.yaml log2.yaml > log.json
 ```
 
 ## Contributing
